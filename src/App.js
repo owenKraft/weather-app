@@ -9,7 +9,7 @@ function App() {
 
   async function callWeatherAPI(location){
     try {  
-      const response = await fetch('http://api.openweathermap.org/data/2.5/weather?q=' + location + '&APPID=561d4ec8d003285db9993fd437a143d5', {mode: 'cors'})
+      const response = await fetch('https://api.openweathermap.org/data/2.5/weather?q=' + location + '&APPID=561d4ec8d003285db9993fd437a143d5', {mode: 'cors'})
       if (!response.ok) {
         throw new Error("bad network request");
       }
