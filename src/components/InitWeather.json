@@ -1,0 +1,43 @@
+{
+"coord": {
+"lon": -80.84,
+"lat": 35.23
+},
+"weather": [
+{
+"id": 800,
+"main": "Clear",
+"description": "clear sky",
+"icon": "01d"
+}
+],
+"base": "stations",
+"main": {
+"temp": 20.91,
+"feels_like": 14.92,
+"temp_min": 19.4,
+"temp_max": 21.99,
+"pressure": 1021,
+"humidity": 73
+},
+"visibility": 10000,
+"wind": {
+"speed": 0.83,
+"deg": 249
+},
+"clouds": {
+"all": 1
+},
+"dt": 1608990278,
+"sys": {
+"type": 1,
+"id": 3648,
+"country": "US",
+"sunrise": 1608985826,
+"sunset": 1609021066
+},
+"timezone": -18000,
+"id": 4460243,
+"name": "Charlotte",
+"cod": 200
+}
