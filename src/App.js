@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react';
 import './App.css';
 import Weather from './components/Weather'
 import InputLocale from './components/InputLocale'
+import background from './resources/background.jpeg'
+
 
 function App() {
   const [weatherData,setWeatherData] = useState()
@@ -46,6 +48,7 @@ function App() {
 
   return (
     <div>
+      <div className="background"><img className="background" src={background} alt=""></img></div>
       <InputLocale 
         getWeather={getWeather}
       />
